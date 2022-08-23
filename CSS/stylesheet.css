@@ -66,7 +66,7 @@ h1{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: var(--font-fade);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
@@ -75,12 +75,63 @@ h1{
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 2px;
-    color: #595959;
+    color: var(--font-fade);
 }
 .project__section > li{
     padding-left: 1px;
 }
+/*-work expperience-*/
+.work__title__place{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.color__pop{
+    color: var(--font-pop);
+}
+.work__date{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--font-fade);
+
+}
+.work__list{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--font-fade);
+    padding-left: 15px;
+}
+/*----education------*/
+.school__info{
+    margin-bottom: 30px;
+}
+.school__name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--font-pop);
+    margin-bottom: 11px;
+}
+.school__course{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding: 0;
+}
+.school__timeline{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--font-fade-2);
+    margin: 0;
+}
+/*------------------*/
 /* sidebar section */
+/*-----------------*/
 .sidebar{
     background-color: var(--background-color-sidebar);
 }
