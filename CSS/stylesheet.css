@@ -1,0 +1,47 @@
+:root{
+    --background-color: #f5f7fa;
+    --font-side-color: #fff;
+    --background-color-sidebar: #5B2C6F;
+    --font-pop: #961620;
+    --font-fade: #595959;
+}
+
+body{   
+    background-color: var(--background-color) ;
+    font-family: 'Montserrat';   
+}
+.section__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+}
+li {
+    line-height: 24px;
+}
+/* main section*/
+.main__info{
+    margin-bottom: 40px;
+}
+.main__info__job__title{
+    font-weight: 700;
+    font-size: 24px;
+}
+h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.main__info > p{
+   font-size: 18px;
+   color: var(--font-fade);
+}
+/* proyect section*/
+.project__section{
+    margin-bottom: 40px;
+}
+/* sidebar section */
+.sidebar{
+    background-color: var(--background-color-sidebar);
+}
+.side__color{
+    color: var(--font-side-color);
+}
