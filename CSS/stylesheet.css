@@ -1,14 +1,22 @@
 :root{
     --background-color: #f5f7fa;
     --font-side-color: #fff;
-    --background-color-sidebar: #5B2C6F;
-    --font-pop: #961620;
+    --background-color-sidebar: #441e55;
+    --font-pop: #c52936;
     --font-fade: #595959;
+    --font-fade-2:#afafaf;
 }
 
 body{   
     background-color: var(--background-color) ;
     font-family: 'Montserrat';   
+}
+.all{
+    width: 1200px;
+    margin: 40px auto;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: row-reverse;
 }
 .section__title {
     font-size: 22px;
@@ -19,16 +27,22 @@ li {
     line-height: 24px;
 }
 /* main section*/
+.main__section{
+    margin-left: 88px;
+}
 .main__info{
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
 .main__info__job__title{
     font-weight: 700;
     font-size: 24px;
 }
 h1{
-    font-weight: 700;
     font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .main__info > p{
    font-size: 18px;
@@ -44,4 +58,32 @@ h1{
 }
 .side__color{
     color: var(--font-side-color);
+}
+img{
+    margin: 40px 0;
+}
+.sidebar__section{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+/* contact section */
+.contact__type{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+.contact__info{
+    color: var(--font-fade-2);
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+}
+/* side List*/
+.side__list{
+    padding-left: 20px;
+}
+.side__list > li{
+    color: var(--font-pop);
+    font-size: 16px;
 }
